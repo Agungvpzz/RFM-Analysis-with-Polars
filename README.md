@@ -14,6 +14,9 @@
 </p>
 
 ## Data Collection and Preparation
+The dataset can be accessed at the following link:
+https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
+
 <p align="justify">
   The Online Retail II dataset provides detailed insights into the sales activities of an online store from December 1, 2009, to December 9, 2011. This dataset is available on Kaggle. The company specializes in unique giftware suitable for a variety of occasions. A substantial portion of the customer base consists of wholesalers.
   RFM Metrics
