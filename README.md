@@ -1,4 +1,4 @@
-# RFM Analysis Report
+# RFM Analysis
 ## Introduction
 <p align="justify">
   The purpose of this report is to analyze our customer base using the RFM (Recency, Frequency, Monetary) model. 
@@ -26,9 +26,9 @@
   In RFM scoring, we categorize our Recency, Frequency, and Monetary metrics into five discrete numerical values, ranging from 1 to 5. Here's how we assign these values:
 </p>
 
-- Recency (R): We allocate scores by dividing the values into quantiles, where a lower number of days (i.e., more recent purchases) receives a higher score.
-- Frequency (F): Instead of quantiles, we manually categorize these into five groups, with more frequent purchases resulting in a higher score.
-- Monetary (M): Similar to Recency, we use quantiles to assign scores, with higher spending resulting in a higher score.
+- **Recency (R)**: We allocate scores by dividing the values into quantiles, where a lower number of days (i.e., more recent purchases) receives a higher score.
+- **Frequency (F)**: Instead of quantiles, we manually categorize these into five groups, with more frequent purchases resulting in a higher score.
+- **Monetary (M)**: Similar to Recency, we use quantiles to assign scores, with higher spending resulting in a higher score.
 
 <p align="justify">
   After scoring these three metrics, we compute an intermediate score by averaging the Frequency and Monetary scores. 
@@ -74,46 +74,48 @@ With this mapping, we can classify customers into the following segments:
 - **Champions**: Customers with high Recency, Frequency, and Monetary scores, representing the best and most active customers.
 
 ## Analysis of Results
-- Champions (14.2% of Customers)
+<div align="center">
+
+  ![image](https://github.com/Agungvpzz/RFM-Analysis-with-Polars/assets/48642326/259f2ede-aa43-4a05-8d40-3447d99a1a39)
+</div>
+
+- **Champions** (14.2% of Customers)
   - Percentage of Total Sales: 52.8%
   - Percentage of Total Purchases: 43.6%
-- Loyal Customers (20% of Customers)
+- **Loyal Customers** (20% of Customers)
   - Percentage of Total Sales: 29%
   - Percentage of Total Purchases: 30%
-- At-Risk (14% of Customers)
+- **At-Risk** (14% of Customers)
   - Percentage of Total Sales: 6.8%
   - Percentage of Total Purchases: 8.3%
-- Cannot Lose Them (1.3 % of Customers)
+- **Cannot Lose Them** (1.3 % of Customers)
   - Percentage of Total Sales: 3,7%
   - Percentage of Total Purchases: 3%
-- Potential Loyalists (12.7% of Customers)
+- **Potential Loyalists** (12.7% of Customers)
   - Percentage of Total Sales: 2.9%
   - Percentage of Total Purchases: 5.5%
-- Hibernating (24.6% of Customers)
+- **Hibernating** (24.6% of Customers)
   - Percentage of Total Sales: 2.4%
   - Percentage of Total Purchases: 4.9%
-- Need Attention (5.2% of Customers)
+- **Need Attention** (5.2% of Customers)
   - Percentage of Total Sales: 1.5%
   - Percentage of Total Purchases: 2.6%
-- About to Sleep (5.7% of Customers)
+- **About to Sleep** (5.7% of Customers)
   - Percentage of Total Sales: 0.6%
   - Percentage of Total Purchases: 1.2%
-- Promising (1.6% of Customers)
+- **Promising** (1.6% of Customers)
   - Percentage of Total Sales: 0.1%
   - Percentage of Total Purchases: 0.3%
-- New Customers (0.7% of Customers)
+- **New Customers** (0.7% of Customers)
   - Percentage of Total Sales: 0.04%
   - Percentage of Total Purchases: 0.1%
 
 ## Pareto Principle Applied to RFM Analysis
 <p align="justify">
-  The RFM analysis indicates that Champions (14.2% of customers) and Loyal Customers (20%) are critical segments, 
+  The RFM analysis indicates that <b>Champions</b> (14.2% of customers) and <b>Loyal Customers</b> (20%) are critical segments, 
   together accounting for 81.8% of total sales and 73.6% of total purchases. This aligns with the Pareto Principle, 
   where a small percentage of customers drive the majority of the sales. 
   Therefore, prioritizing retention and engagement strategies for these top segments is essential. 
-  Efforts should also be directed at re-engaging At-Risk (14%) and Cannot Lose Them (1.3%) segments to prevent potential loss, 
-  while nurturing Potential Loyalists (12.7%) to further boost their contributions. 
-  Focusing on these key customer groups will optimize resources and significantly enhance overall sales performance.
 </p>
 
 ## Overall Recommendations
@@ -124,12 +126,7 @@ With this mapping, we can classify customers into the following segments:
 
 ## Conclusion
 <p align="justify">
-  The RFM analysis reveals that Champions (14.2% of customers) are the most valuable, contributing 52.8% of total sales and 43.6% of purchases, and should be prioritized for retention. 
-  Loyal Customers (20%) also significantly contribute, making up 29% of sales and 30% of purchases. 
-  At-risk and Cannot Lose Them segments, though smaller, require immediate re-engagement to prevent churn. 
-  Potential Loyalists and Hibernating customers present opportunities for growth with targeted marketing. 
-  The rest of the segments, including New Customers, need strategic nurturing to boost their engagement and value. 
-  Focusing efforts on these key segments can enhance overall customer retention and sales.
+  The RFM analysis reveals that Champions (14.2% of customers) are the most valuable, contributing 52.8% of total sales and 43.6% of purchases, and should be prioritized for retention. Loyal Customers (20%) also significantly contribute, making up 29% of sales and 30% of purchases.
+  At-risk and Cannot Lose Them segments, though smaller, require immediate re-engagement to prevent churn. Potential Loyalists and Hibernating customers present opportunities for growth with targeted marketing. 
+  The rest of the segments, including New Customers, need strategic nurturing to boost their engagement and value. Focusing efforts on these key segments can enhance overall customer retention and sales.
 </p>
-
-
