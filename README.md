@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> If you encounter an error with the Jupyter Notebook on GitHub, please use this link to open it [nbviewer](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20with%20Polars.ipynb)
+
 # RFM Analysis
 ## Introduction
 <p align="justify">
