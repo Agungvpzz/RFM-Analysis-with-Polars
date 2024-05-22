@@ -19,9 +19,9 @@ https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
 
 <p align="justify">
   The Online Retail II dataset provides detailed insights into the sales activities of an online store from December 1, 2009, to December 9, 2011. This dataset is available on Kaggle. The company specializes in unique giftware suitable for a variety of occasions. A substantial portion of the customer base consists of wholesalers.
-  RFM Metrics
 </p>
 
+**RFM Metrics**
 - **Recency**: This refers to the number of days since a customer last made a purchase. A higher number indicates a longer gap between purchases, which is generally undesirable for a business.
 - **Frequency**: This measures the total number of purchases made by a customer. A higher frequency suggests that the customer is more engaged, which is beneficial.
 - **Monetary**: This represents the total amount of money a customer has spent with the business. A higher monetary value is a positive indicator, as it means the customer is contributing more revenue.
