@@ -114,23 +114,19 @@ With this mapping, we can classify customers into the following segments:
   - Percentage of Total Sales: 0.34%
   - Percentage of Total Purchases: 0.93%
 
-## Pareto Principle Applied to RFM Analysis
-<p align="justify">
-  The RFM analysis indicates that <b>Champions</b> (14.2% of customers) and <b>Loyal Customers</b> (20%) are critical segments, 
-  together accounting for 81.8% of total sales and 73.6% of total purchases. This aligns with the Pareto Principle, 
-  where a small percentage of customers drive the majority of the sales. 
-  Therefore, prioritizing retention and engagement strategies for these top segments is essential. 
-</p>
+## Key Findings:
+- **Loyal Customer Sales Contribution:**
+  - 31.7% of total sales come from Loyal Customers.
+  - However, despite their significant contribution, the average recency for this segment exceeds 57.31 days, suggesting that while they purchase frequently enough to be valuable, there is room to improve their purchase frequency or re-engagement.
+- **High-Value Segment Dominance:**
+  - Champions (10.8% of customers) and Loyal Customers (18.79%) are critical segments, together accounting for 48.3% of total sales and 40.61% of total purchases.
+  - This highlights their critical role in driving the business’s revenue, underscoring the need for targeted strategies to nurture and retain these key segments.
+- **Inactivity Warning Signs:**
+  - A concerning 41.36% of customers have a recency exceeding 100 days, and these inactive customers are responsible for 35.25% of the total sales.
+  - Additionally, only 24.46% of customers have engaged within the last 30 days, indicating a significant segment that could benefit from reactivation strategies to boost overall engagement and revenue.
 
-## Overall Recommendations
-- **Focus on High-Value Segments**: Prioritize retention and engagement efforts for Champions and Loyal Customers as they drive the majority of sales and purchases.
-- **Re-engagement Strategies**: Implement targeted campaigns for At-Risk, Cannot Lose Them, and Hibernating customers to prevent churn and reactivate their purchasing behavior.
-- **Nurture Potential**: Develop strategies to encourage Potential Loyalists and Promising customers to increase their engagement and spending.
-- **Onboarding New Customers**: Invest in effective onboarding and nurturing programs to convert New Customers into repeat buyers.
-
-## Conclusion
-<p align="justify">
-  The RFM analysis reveals that Champions (14.2% of customers) are the most valuable, contributing 52.8% of total sales and 43.6% of purchases, and should be prioritized for retention. Loyal Customers (20%) also significantly contribute, making up 29% of sales and 30% of purchases.
-  At-risk and Cannot Lose Them segments, though smaller, require immediate re-engagement to prevent churn. Potential Loyalists and Hibernating customers present opportunities for growth with targeted marketing. 
-  The rest of the segments, including New Customers, need strategic nurturing to boost their engagement and value. Focusing efforts on these key segments can enhance overall customer retention and sales.
-</p>
+## Conclusions and Recommendations: 
+- **Loyal Customers and Champions Drive Revenue:** These segments contribute nearly half of total sales and purchases. Focus on nurturing them with personalized strategies to sustain and grow their value.
+- **Improve Purchase Frequency:** Loyal Customers purchase often but could be re-engaged more frequently (average recency: 57.31 days). Targeted promotions can help.
+- **Address Inactivity:** 41.36% of customers haven’t engaged in over 100 days but still contribute 35.25% of sales. Reactivation campaigns are crucial.
+- **Boost Overall Engagement:** Only 24.46% of customers are active within 30 days, suggesting significant potential for improvement through stronger engagement efforts.
