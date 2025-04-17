@@ -1,5 +1,7 @@
 > [!NOTE]
-> If you encounter an error with the Jupyter Notebook on GitHub, please use this link to open it [nbviewer](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20with%20Polars.ipynb)
+> If you encounter an error with the Jupyter Notebook on GitHub, please use the following links:
+> <br>- [nbviewer: RFM with Polars](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20with%20Polars.ipynb)
+> <br>- [nbviewer: RFM SuperStore](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20SuperStore.ipynb)
 
 # RFM Analysis
 ## Introduction
@@ -13,13 +15,9 @@
   and improve the customer experience.
 </p>
 
-## Data Collection and Preparation
+## Data Collection
 The dataset can be accessed at the following link:
-https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
-
-<p align="justify">
-  The Online Retail II dataset provides detailed insights into the sales activities of an online store from December 1, 2009, to December 9, 2011. This dataset is available on Kaggle. The company specializes in unique giftware suitable for a variety of occasions. A substantial portion of the customer base consists of wholesalers.
-</p>
+https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
 **RFM Metrics**
 - **Recency**: This refers to the number of days since a customer last made a purchase. A higher number indicates a longer gap between purchases, which is generally undesirable for a business.
@@ -68,16 +66,16 @@ seg_map = {
 ```
 
 With this mapping, we can classify customers into the following segments:
-- **Hibernating**: Customers with lower Recency and Frequency scores, indicating they haven't purchased recently and don't buy often.
-- **At-Risk**: Customers with low Recency but moderate Frequency and Monetary scores, suggesting they might be losing interest.
-- **Cannot Lose Them**: Customers with low Recency but high Frequency and Monetary scores, indicating they are valuable despite their recent inactivity.
-- **About to Sleep**: Customers with moderate Recency and low Frequency, suggest they might stop buying soon.
-- **Need Attention**: Customers with moderate scores across all metrics, require targeted engagement to prevent them from losing interest.
-- **Loyal Customers**: Customers with moderate-to-high Frequency and Monetary scores, indicating they are regular buyers with considerable spending.
-- **Promising**: Customers with high Recency but low Frequency, suggesting they are new but have potential for more engagement.
-- **New Customers**: Customers with high Recency and low Frequency, indicating they are recent additions but with less activity.
-- **Potential Loyalists**: Customers with moderate Recency and higher Frequency and Monetary scores, suggesting they might become more loyal over time.
-- **Champions**: Customers with high Recency, Frequency, and Monetary scores, representing the best and most active customers.
+- **Hibernating (R1‑2, FM1‑2)**: Customers who have been inactive for an extended period, with a notably low recent engagement and infrequent purchasing behavior.
+- **At-Risk (R1‑2, FM3‑4)**: Customers with outdated activity but moderate purchase frequency and spending, suggesting waning interest.
+- **Cannot Lose Them (R1‑2, FM5)**: Valuable customers who, despite a long gap since their last purchase, consistently buy frequently and spend high amounts.
+- **About to Sleep (R3, FM1‑2)**: Customers with moderate recency but low purchase frequency, indicating they might soon become inactive.
+- **Need Attention (R3, FM3)**: Customers showing average behavior across all metrics, requiring focused engagement to keep them active.
+- **Loyal Customers (R3‑4, FM4‑5)**: Regular buyers with strong spending habits reflected by decent recent activity and high frequency.
+- **Promising (R4, FM1)**: New customers who are recent but have yet to purchase frequently, showing potential for growth.
+- **New Customers (R5, FM1)**: Recently acquired customers with few repeat purchases.
+- **Potential Loyalists (R4‑5, FM2‑3)**: Customers with promising engagement levels, poised to demonstrate increased loyalty over time.
+- **Champions (R5, FM4‑5)**: The top-tier group—highly active, frequent buyers with significant spending.
 
 ## Analysis of Results
 <div align="center">
