@@ -19,7 +19,7 @@
 The dataset can be accessed at the following link:
 https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
-**RFM Metrics**
+## RFM Metrics
 - **Recency**: This refers to the number of days since a customer last made a purchase. A higher number indicates a longer gap between purchases, which is generally undesirable for a business.
 - **Frequency**: This measures the total number of purchases made by a customer. A higher frequency suggests that the customer is more engaged, which is beneficial.
 - **Monetary**: This represents the total amount of money a customer has spent with the business. A higher monetary value is a positive indicator, as it means the customer is contributing more revenue.
@@ -27,12 +27,16 @@ https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
 ## RFM Scoring
 <p align="justify">
-  In RFM scoring, we categorize our Recency, Frequency, and Monetary metrics into five discrete numerical values, ranging from 1 to 5. Here's how we assign these values:
+In RFM scoring, we divide our Recency, Frequency, and Monetary metrics into five distinct tiers, rated from 1 to 5. We assign these values by using quantiles:
 </p>
 
-- **Recency (R)**: We allocate scores by dividing the values into quantiles, where a lower number of days (i.e., more recent purchases) receives a higher score.
-- **Frequency (F)**: Instead of quantiles, we manually categorize these into five groups, with more frequent purchases resulting in a higher score.
-- **Monetary (M)**: Similar to Recency, we use quantiles to assign scores, with higher spending resulting in a higher score.
+- **Recency (R)**: We segment the time since a purchase into quantiles so that customers with more recent purchases (fewer days) achieve a higher score.
+- **Frequency (F)**: We similarly divide the number of purchases into quantiles, awarding higher scores to those with more frequent transactions.
+- **Monetary (M)**: We apply the same quantile-based approach to spending amounts, granting higher scores to customers with greater expenditures.
+
+<p align="justify">
+This method ensures that customers are rated proportionately according to their recency, purchase frequency, and spending.
+</p>
 
 <p align="justify">
   After scoring these three metrics, we compute an intermediate score by averaging the Frequency and Monetary scores. 
