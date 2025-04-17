@@ -3,7 +3,7 @@
 > <br>- [nbviewer: RFM with Polars](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20with%20Polars.ipynb)
 > <br>- [nbviewer: RFM SuperStore](https://nbviewer.org/github/Agungvpzz/RFM-Analysis-with-Polars/blob/main/RFM%20SuperStore.ipynb)
 
-# RFM Analysis
+# RFM Analysis for Super Store
 ## Introduction
 <p align="justify">
   The purpose of this report is to analyze our customer base using the RFM (Recency, Frequency, Monetary) model. 
