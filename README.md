@@ -79,40 +79,40 @@ With this mapping, we can classify customers into the following segments:
 
 ## Analysis of Results
 <div align="center">
-
-  ![image](https://github.com/Agungvpzz/RFM-Analysis-with-Polars/assets/48642326/259f2ede-aa43-4a05-8d40-3447d99a1a39)
+  
+  ![image](https://github.com/user-attachments/assets/674ac96e-875b-4f16-9ffe-53423ab8b3e4)
 </div>
 
-- **Champions** (14.2% of Customers)
-  - Percentage of Total Sales: 52.8%
-  - Percentage of Total Purchases: 43.6%
-- **Loyal Customers** (20% of Customers)
-  - Percentage of Total Sales: 29%
-  - Percentage of Total Purchases: 30%
-- **At-Risk** (14% of Customers)
-  - Percentage of Total Sales: 6.8%
-  - Percentage of Total Purchases: 8.3%
-- **Cannot Lose Them** (1.3 % of Customers)
-  - Percentage of Total Sales: 3,7%
-  - Percentage of Total Purchases: 3%
-- **Potential Loyalists** (12.7% of Customers)
-  - Percentage of Total Sales: 2.9%
-  - Percentage of Total Purchases: 5.5%
-- **Hibernating** (24.6% of Customers)
-  - Percentage of Total Sales: 2.4%
-  - Percentage of Total Purchases: 4.9%
-- **Need Attention** (5.2% of Customers)
-  - Percentage of Total Sales: 1.5%
-  - Percentage of Total Purchases: 2.6%
-- **About to Sleep** (5.7% of Customers)
-  - Percentage of Total Sales: 0.6%
-  - Percentage of Total Purchases: 1.2%
-- **Promising** (1.6% of Customers)
-  - Percentage of Total Sales: 0.1%
-  - Percentage of Total Purchases: 0.3%
-- **New Customers** (0.7% of Customers)
-  - Percentage of Total Sales: 0.04%
-  - Percentage of Total Purchases: 0.1%
+- **Champions** (10.84% of Customers)
+  - Percentage of Total Sales: 16.6%
+  - Percentage of Total Purchases: 15.32%
+- **Loyal Customers** (18.79% of Customers)
+  - Percentage of Total Sales: 31.7%
+  - Percentage of Total Purchases: 25.29%
+- **At-Risk** (13.49% of Customers)
+  - Percentage of Total Sales: 18.85%
+  - Percentage of Total Purchases: 15.3%
+- **Cannot Lose Them** (1.89 % of Customers)
+  - Percentage of Total Sales: 4.97%
+  - Percentage of Total Purchases: 3.09%
+- **Potential Loyalists** (16.14% of Customers)
+  - Percentage of Total Sales: 10.52%
+  - Percentage of Total Purchases: 14.59%
+- **Hibernating** (24.46% of Customers)
+  - Percentage of Total Sales: 9.91%
+  - Percentage of Total Purchases: 15.77%
+- **Need Attention** (3.15% of Customers)
+  - Percentage of Total Sales: 3.41%
+  - Percentage of Total Purchases: 3.19%
+- **About to Sleep** (8.07% of Customers)
+  - Percentage of Total Sales: 3.54%
+  - Percentage of Total Purchases: 5.83%
+- **Promising** (1.26% of Customers)
+  - Percentage of Total Sales: 0.16%
+  - Percentage of Total Purchases: 0.69%
+- **New Customers** (1.89% of Customers)
+  - Percentage of Total Sales: 0.34%
+  - Percentage of Total Purchases: 0.93%
 
 ## Pareto Principle Applied to RFM Analysis
 <p align="justify">
