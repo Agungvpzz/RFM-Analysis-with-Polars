@@ -125,8 +125,8 @@ With this mapping, we can classify customers into the following segments:
   - A concerning 41.36% of customers have a recency exceeding 100 days, and these inactive customers are responsible for 35.25% of the total sales.
   - Additionally, only 24.46% of customers have engaged within the last 30 days, indicating a significant segment that could benefit from reactivation strategies to boost overall engagement and revenue.
 
-## Conclusions and Recommendations: 
-- **Loyal Customers and Champions Drive Revenue:** These segments contribute nearly half of total sales and purchases. Focus on nurturing them with personalized strategies to sustain and grow their value.
-- **Improve Purchase Frequency:** Loyal Customers purchase often but could be re-engaged more frequently (average recency: 57.31 days). Targeted promotions can help.
-- **Address Inactivity:** 41.36% of customers haven’t engaged in over 100 days but still contribute 35.25% of sales. Reactivation campaigns are crucial.
-- **Boost Overall Engagement:** Only 24.46% of customers are active within 30 days, suggesting significant potential for improvement through stronger engagement efforts.
+## Conclusions & Recommendations:
+- **Loyal Customers and Champions as Revenue Drivers**: Nearly half of total sales and purchases come from these segments. Action: Prioritize personalized engagement to maintain and boost their value.
+- **Increase Purchase Frequency**: Loyal Customers are active buyers, yet an average recency of 57.31 days suggests room for more frequent interactions. Action: Deploy targeted promotions to encourage more regular purchases.
+- **Reactivate Inactive Customers**: Although 41.36% of customers haven't engaged in over 100 days, they still account for 35.25% of sales. Action: Launch reactivation campaigns to recapture this dormant segment.
+- **Enhance Overall Engagement**: With only 24.46% of customers active within the last 30 days, there is significant potential to boost overall activity. Action: Implement broad engagement strategies to stimulate recurring interactions.
